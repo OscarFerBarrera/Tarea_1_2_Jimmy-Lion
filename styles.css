@@ -1,0 +1,160 @@
+body{
+    font-family: sans-serif;
+    color: #373737;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu{
+    display: block;
+}
+
+.menu-list{
+    list-style: none;
+}
+
+.menu-list-item{
+    display: inline-block;
+}
+
+.menu-list-item a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #373737;
+    margin-right: 30px;
+}
+
+.logo-container img{
+    width: 120px;
+}
+
+/* main banner */
+
+.main-banner img{
+    width: 100%;
+}
+
+/* collections */
+
+.collections{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.collection{
+    position: relative;
+}
+
+.collection img{
+    width: 450px;
+}
+
+.collection-description{
+    position:absolute;
+    top:115px;
+    left: 30px;
+}
+
+.collection-description-buy{
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0 0 10px 0;
+}
+
+.collection-description-text{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+/* Mis clases*/
+
+.pack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ttt{
+    position: relative;
+}
+
+.pack-description-one{
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 0 0 10px 0;
+}
+
+.faceButton{
+    background-color: #373737;
+    font-size: 10px;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+
+.collectionsCC{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    margin: 20px;
+}
+
+.collectiontt{
+    position: relative;
+}
+
+.novedades{
+    display: flex;
+    flex-direction:column;
+}
+.novedad1{
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    font-weight: bolder;
+}
+
+.novedad2{
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+}
+.box-calcetines{
+    display: inline-block;
+}
+
+.formulario{
+    display:Flex;
+    justify-content: center;
+}
+input{
+    height: 30px;
+    width: 200px;
+    margin: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color:lightgray;
+}
+
+.menuFooter{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 10px;
+}
+
